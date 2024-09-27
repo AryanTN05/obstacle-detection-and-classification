@@ -32,10 +32,10 @@ This repository contains the implementation of the **Object Detection and Classi
 3. Ensure you have the following installed:
    - Python 3.10+
    - PyTorch 2.0+
-   - YOLOv8 (Ultralytics)
+   - Ultralytics
    - OpenCV for video processing
 
-4. Download and place the dataset into the `data` directory (details on dataset below).
+4. Download the dataset from the link https://data.mendeley.com/datasets/nfc34n8svj/2
 
 ## Dataset
 We used the **DATS_2022 dataset**, specifically designed for Indian roads, containing:
@@ -44,7 +44,6 @@ We used the **DATS_2022 dataset**, specifically designed for Indian roads, conta
 
 The dataset was augmented using techniques such as **rotation, scaling, flipping**, and **brightness adjustments** to ensure model robustness across various environmental conditions like rain, fog, and night-time driving.
 
-To download the dataset, visit: [DATS_2022](#link-to-dataset).
 
 ## Model Architecture
 We used the **YOLOv8 Nano variant**, optimized for real-time performance. The model balances **accuracy** and **computational efficiency**, making it suitable for resource-constrained environments.
@@ -55,32 +54,9 @@ We used the **YOLOv8 Nano variant**, optimized for real-time performance. The mo
 
 The system is designed to process video frames in real-time and detect objects by overlaying bounding boxes with associated class labels.
 
-## Training
-To train the model:
-1. Place the dataset in the `data/` folder.
-2. Run the training script:
-   ```bash
-   python train.py --dataset data/DATS_2022 --epochs 20 --model yolov8n
-   ```
+## Training and Evaluation 
+For the Process of Training and Evaluation purposes refer to the Train and Eval.ipynb.
 
-Training details:
-- **Epochs**: 20
-- **Optimizer**: Adam
-- **Learning rate**: 0.001
-- **Pre-trained weights**: COCO dataset
-
-The model was fine-tuned using transfer learning for the specific challenges posed by Indian roads.
-
-## Evaluation
-After training, the model was evaluated using:
-- **Precision**: 0.65
-- **Recall**: 0.50
-- **F1-Score**: 0.30
-
-To run the evaluation:
-```bash
-python evaluate.py --model checkpoints/yolov8n_best.pt --dataset data/DATS_2022
-```
 
 ## Results
 The system demonstrated:
