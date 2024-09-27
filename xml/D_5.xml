@@ -1,0 +1,38 @@
+<annotation>
+	<folder>D_Train</folder>
+	<filename>D_5.png</filename>
+	<path>E:\PhD\Progress Seminar III\DATS_2020\Mobile_Images\Daytime\PNG Images\D_Train\D_5.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rikshaw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1050</xmin>
+			<ymin>1665</ymin>
+			<xmax>1959</xmax>
+			<ymax>2402</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Cycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>500</xmin>
+			<ymin>1856</ymin>
+			<xmax>846</xmax>
+			<ymax>2238</ymax>
+		</bndbox>
+	</object>
+</annotation>

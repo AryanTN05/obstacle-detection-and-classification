@@ -1,0 +1,50 @@
+<annotation>
+	<folder>D_Train</folder>
+	<filename>D_2.png</filename>
+	<path>E:\PhD\Progress Seminar III\DATS_2020\Mobile_Images\Daytime\PNG Images\D_Train\D_2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bus</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1103</ymin>
+			<xmax>937</xmax>
+			<ymax>2771</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Road Divider</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>764</xmin>
+			<ymin>2044</ymin>
+			<xmax>1255</xmax>
+			<ymax>2148</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Traffic Sign Board</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1687</xmin>
+			<ymin>1707</ymin>
+			<xmax>1932</xmax>
+			<ymax>1916</ymax>
+		</bndbox>
+	</object>
+</annotation>

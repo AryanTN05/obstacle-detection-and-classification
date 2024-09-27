@@ -1,0 +1,35 @@
+Traffic Signal
+Lamp Post
+Zebra Crossing
+Bike
+Car
+Rikshaw
+Tyre Works
+Tree
+Tractor
+Cattle
+Vegetation
+Electricity Pole
+Building
+Board
+Wall
+person
+Bus
+Bridge
+Road Divider
+Tempo
+Traffic Sign Board
+Flag
+Crane
+Cycle
+Dog
+Truck
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Overbridge
+Manhole
+Bus Stop
+Barricade
+Petrol Pump
+Ambulance
+Goat
+Cart
