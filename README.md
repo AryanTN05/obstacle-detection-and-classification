@@ -18,7 +18,6 @@ This repository contains the implementation of the **Object Detection and Classi
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Future Work](#future-work)
-- [License](#license)
 
 ## Installation
 1. Clone the repository:
@@ -98,7 +97,3 @@ Sample results:
 - **3D bounding box** support for better depth estimation in autonomous driving.
 - **Dataset expansion** to include more challenging environments and rare object classes.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-For more details, check out the [full paper](https://doi.org/...).
